@@ -2,13 +2,14 @@
    <h1 class="display-4">Bienvenido Radiología Unimag</h1>
    <p class="lead">Una plataforma iteractiva que te permite aprender radiologia de una forma facil.</p>
    <hr class="my-4">
-   <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+   <div class="text-center">
+      <a class="btn btn-primary btn-lg" role="button" [routerLink]="['/radiografias']">Ver Radiografías</a>
+   </div>
 </div>
 
-<div class="row">
+<div class="row  animated fadeIn">
    <div class="col-sm-12 col-md-5">
-      <h2>Miembros Superiores</h2>
+      <h2 class="mb-3">Miembros Superiores</h2>
 
       <div class="list-group">
          <a href="#" class="list-group-item list-group-item-action">Hombro</a>
@@ -21,7 +22,7 @@
 
    </div>
    <div class="col-sm-12 offset-md-1 col-md-5">
-      <h2>Miembros Inferiores</h2>
+      <h2 class="mb-3">Miembros Inferiores</h2>
       <div class="list-group">
          <a href="#" class="list-group-item list-group-item-action">Sacroglútea</a>
          <a href="#" class="list-group-item list-group-item-action">Muslo</a>

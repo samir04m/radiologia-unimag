@@ -8,13 +8,15 @@ import { HomeComponent } from './components/home/home.component';
 import { app_routing } from './app.routes';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { InformacionComponent } from './components/informacion/informacion.component';
+import { RadiografiasComponent } from './components/radiografias/radiografias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    InformacionComponent
+    InformacionComponent,
+    RadiografiasComponent
   ],
   imports: [
     BrowserModule,
