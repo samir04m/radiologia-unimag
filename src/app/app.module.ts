@@ -10,6 +10,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { InformacionComponent } from './components/informacion/informacion.component';
 import { RadiografiasComponent } from './components/radiografias/radiografias.component';
 import { HombroComponent } from './components/radiografias/superiores/hombro/hombro.component';
+import { ListadoComponent } from './components/radiografias/listado/listado.component';
+import { BrazoComponent } from './components/radiografias/superiores/brazo/brazo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HombroComponent } from './components/radiografias/superiores/hombro/hom
     NavbarComponent,
     InformacionComponent,
     RadiografiasComponent,
-    HombroComponent
+    HombroComponent,
+    ListadoComponent,
+    BrazoComponent
   ],
   imports: [
     BrowserModule,
