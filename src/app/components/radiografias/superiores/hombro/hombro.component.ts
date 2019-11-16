@@ -10,6 +10,8 @@ export class HombroComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+     // window.location.reload();
   }
+
 
 }

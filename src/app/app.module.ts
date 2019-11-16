@@ -22,7 +22,7 @@ import { BrazoComponent } from './components/radiografias/superiores/brazo/brazo
     RadiografiasComponent,
     HombroComponent,
     ListadoComponent,
-    BrazoComponent
+    BrazoComponent,
   ],
   imports: [
     BrowserModule,
