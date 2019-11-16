@@ -9,6 +9,7 @@ import { app_routing } from './app.routes';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { InformacionComponent } from './components/informacion/informacion.component';
 import { RadiografiasComponent } from './components/radiografias/radiografias.component';
+import { HombroComponent } from './components/radiografias/superiores/hombro/hombro.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RadiografiasComponent } from './components/radiografias/radiografias.co
     HomeComponent,
     NavbarComponent,
     InformacionComponent,
-    RadiografiasComponent
+    RadiografiasComponent,
+    HombroComponent
   ],
   imports: [
     BrowserModule,
