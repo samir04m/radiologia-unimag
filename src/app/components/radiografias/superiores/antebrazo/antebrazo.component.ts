@@ -1,15 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import * as jQuery from 'jquery';
 
 @Component({
   selector: 'app-antebrazo',
   templateUrl: './antebrazo.component.html',
-  styleUrls: ['./antebrazo.component.css']
+  styleUrls:  ['../../radiografias.component.css']
 })
 export class AntebrazoComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onClick(elem){
+     let title = jQuery(elem.target).attr('title');
+     $('path').removeClass('selected');
+     $(elem.target).addClass('selected');
+     jQuery("#nombre").html(title);
   }
 
 }
