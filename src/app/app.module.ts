@@ -12,6 +12,10 @@ import { RadiografiasComponent } from './components/radiografias/radiografias.co
 import { HombroComponent } from './components/radiografias/superiores/hombro/hombro.component';
 import { ListadoComponent } from './components/radiografias/listado/listado.component';
 import { BrazoComponent } from './components/radiografias/superiores/brazo/brazo.component';
+import { CodoComponent } from './components/radiografias/superiores/codo/codo.component';
+import { AntebrazoComponent } from './components/radiografias/superiores/antebrazo/antebrazo.component';
+import { MunecaComponent } from './components/radiografias/superiores/muneca/muneca.component';
+import { ManoComponent } from './components/radiografias/superiores/mano/mano.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { BrazoComponent } from './components/radiografias/superiores/brazo/brazo
     HombroComponent,
     ListadoComponent,
     BrazoComponent,
+    CodoComponent,
+    AntebrazoComponent,
+    MunecaComponent,
+    ManoComponent,
   ],
   imports: [
     BrowserModule,
