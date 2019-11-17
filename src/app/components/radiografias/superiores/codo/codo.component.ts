@@ -34,4 +34,11 @@ export class CodoComponent implements OnInit {
      jQuery("#nombre3").html(title);
    }
 
+   onClick4(elem){
+     let title = jQuery(elem.target).attr('title');
+     $('path').removeClass('selected');
+     $(elem.target).addClass('selected');
+     jQuery("#nombre4").html(title);
+   }
+
 }
