@@ -16,11 +16,17 @@ export class HombroComponent implements OnInit {
    }
 
    onClick(elem){
-      // console.log("select", elem.target, elem.target.attributes.id);
       let title = jQuery(elem.target).attr('title');
       $('path').removeClass('selected');
       $(elem.target).addClass('selected');
       jQuery("#nombre").html(title);
+   }
+
+   onClick2(elem){
+      let title = jQuery(elem.target).attr('title');
+      $('path').removeClass('selected');
+      $(elem.target).addClass('selected');
+      jQuery("#nombre2").html(title);
    }
 
 }
