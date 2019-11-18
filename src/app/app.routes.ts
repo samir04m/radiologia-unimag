@@ -9,7 +9,6 @@ import { BrazoComponent } from './components/radiografias/superiores/brazo/brazo
 import { AntebrazoComponent } from './components/radiografias/superiores/antebrazo/antebrazo.component';
 import { CodoComponent } from './components/radiografias/superiores/codo/codo.component';
 import { ManoComponent } from './components/radiografias/superiores/mano/mano.component';
-import { MunecaComponent } from './components/radiografias/superiores/muneca/muneca.component';
 
 const app_routes: Routes = [
    { path: 'inicio', component: HomeComponent },
@@ -25,7 +24,6 @@ const app_routes: Routes = [
         { path: 'antebrazo', component: AntebrazoComponent },
         { path: 'codo', component: CodoComponent },
         { path: 'mano', component: ManoComponent },
-        { path: 'muneca', component: MunecaComponent },
 
         { path: '**', pathMatch: 'full', redirectTo: 'listado' }
      ]
