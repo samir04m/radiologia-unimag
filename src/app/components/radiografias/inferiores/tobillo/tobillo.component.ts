@@ -4,7 +4,7 @@ import * as jQuery from 'jquery';
 @Component({
   selector: 'app-tobillo',
   templateUrl: './tobillo.component.html',
-  styles:  ['../../radiografias.component.css']
+  styleUrls:  ['../../radiografias.component.css']
 })
 export class TobilloComponent implements OnInit {
 

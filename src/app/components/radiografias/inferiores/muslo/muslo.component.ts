@@ -4,7 +4,7 @@ import * as jQuery from 'jquery';
 @Component({
   selector: 'app-muslo',
   templateUrl: './muslo.component.html',
-  styles: ['../../radiografias.component.css']
+  styleUrls: ['../../radiografias.component.css']
 })
 export class MusloComponent implements OnInit {
 

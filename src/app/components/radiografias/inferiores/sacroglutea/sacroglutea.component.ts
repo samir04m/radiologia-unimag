@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Component, OnInit } from '@angular/core';
+import * as jQuery from 'jquery';
 
 @Component({
   selector: 'app-sacroglutea',
   templateUrl: './sacroglutea.component.html',
-  styles: ['../../radiografias.component.css']
+  styleUrls: ['../../radiografias.component.css']
 })
 export class SacrogluteaComponent implements OnInit {
 

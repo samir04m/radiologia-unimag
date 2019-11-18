@@ -4,7 +4,7 @@ import * as jQuery from 'jquery';
 @Component({
   selector: 'app-pie',
   templateUrl: './pie.component.html',
-  styles: ['../../radiografias.component.css']
+  styleUrls: ['../../radiografias.component.css']
 })
 export class PieComponent implements OnInit {
 

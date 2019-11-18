@@ -4,7 +4,7 @@ import * as jQuery from 'jquery';
 @Component({
   selector: 'app-rodilla',
   templateUrl: './rodilla.component.html',
-  styles: ['../../radiografias.component.css']
+  styleUrls: ['../../radiografias.component.css']
 })
 export class RodillaComponent implements OnInit {
 
