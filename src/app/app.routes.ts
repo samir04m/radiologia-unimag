@@ -14,7 +14,7 @@ const app_routes: Routes = [
    { path: 'inicio', component: HomeComponent },
    { path: 'informacion', component: InformacionComponent },
    {
-     path: 'radiografias',
+     path: 'resonancias',
      component: RadiografiasComponent,
      children: [
         { path: '', component: ListadoComponent },
